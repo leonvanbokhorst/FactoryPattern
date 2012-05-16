@@ -15,6 +15,7 @@ namespace FactoryPatternTests
         {
             IFoodFactory factory = CreateFoodFactory();
             IFood food = factory.CreateFood();
+            
             food.EatIt();
         }
 
